@@ -1,0 +1,23 @@
+
+
+    # data = request.json
+    # name = data['name']
+   
+    # desc = data['desc']
+    # price = data['price']
+    # if 'file' not in request.files:
+    #     return jsonify('no file'), 400
+    # file = request.files['file']
+    # if file.filename == '':
+    #     return jsonify('no file selected'),400
+
+    # if check_file_extension(file.filename):
+    #    file.save(os.path.join(os.path.abspath(os.path.dirname(__file__)),app.config['UPLOAD_FOLDER'],secure_filename(file.filename)))    
+    #    my_cursor = mydb.cursor(MySQLdb.cursors.DictCursor)
+    #    my_cursor.execute('INSERT INTO food_list(image, name, descr, price) VALUES (%s, %s, %s, %s)', [file, name, desc, price])
+    #    mydb.commit()
+    #    return jsonify('food added successfully!'),201
+    #   # return jsonify('uploaded sucessfully '),201
+    # else:
+    #       return jsonify('allowed files are jpg, png'),400  
+    
